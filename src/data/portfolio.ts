@@ -109,55 +109,80 @@ export const projects: Project[] = [
 ];
 
 export const skills: Skill[] = [
-  // Frontend
+  // MOST IMPORTANT SKILLS FIRST (for "All Skills" view - First 12 shown initially)
+
+  // Frontend - iOS (Current Work at Ixigo)
   { name: "SwiftUI", level: 90, category: "frontend" },
   { name: "UIKit", level: 85, category: "frontend" },
+
+  // Frontend - Web (Core Expertise)
   { name: "React.js", level: 88, category: "frontend" },
-  { name: "Next.js", level: 85, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
+
+  // Backend - Primary Languages & Frameworks
+  { name: "Python", level: 92, category: "backend" },
+  { name: "Node.js", level: 85, category: "backend" },
+  { name: "Django", level: 82, category: "backend" },
+
+  // AI & Machine Learning (Core Expertise)
+  { name: "Agentic AI", level: 90, category: "AI and Machine Learning" },
+  { name: "LangChain", level: 88, category: "AI and Machine Learning" },
+  { name: "LangGraph", level: 88, category: "AI and Machine Learning" },
+
+  // Tools & DevOps (Essential)
+  { name: "Git/GitHub", level: 90, category: "tools" },
+  { name: "Docker", level: 75, category: "tools" },
+
+  // IMPORTANT SKILLS (Shown after first 12)
+
+  // Frontend - Additional Web
+  { name: "Next.js", level: 85, category: "frontend" },
+  { name: "TypeScript", level: 80, category: "frontend" },
+
+  // AI & ML - Additional Core
+  { name: "Autogen", level: 85, category: "AI and Machine Learning" },
+  { name: "Machine Learning", level: 85, category: "AI and Machine Learning" },
+  { name: "Deep Learning", level: 80, category: "AI and Machine Learning" },
+
+  // Backend - Additional
+  { name: "Swift", level: 90, category: "backend" },
+  { name: "Express.js", level: 85, category: "backend" },
+  { name: "SQL", level: 80, category: "backend" },
+  { name: "MongoDB", level: 82, category: "backend" },
+  { name: "PostgreSQL", level: 80, category: "backend" },
+
+  // Tools - Additional
+  { name: "VSCode", level: 88, category: "tools" },
+
+  // REMAINING SKILLS (shown after "Show More")
+
+  // Frontend - Additional
   { name: "HTML/CSS", level: 92, category: "frontend" },
   { name: "Tailwind CSS", level: 88, category: "frontend" },
   { name: "Material-UI", level: 85, category: "frontend" },
 
-  // Backend & Languages
-  { name: "Python", level: 92, category: "backend" },
-  { name: "Swift", level: 90, category: "backend" },
-  { name: "Django", level: 82, category: "backend" },
-  { name: "Node.js", level: 85, category: "backend" },
-  { name: "Express.js", level: 85, category: "backend" },
-  { name: "SQL", level: 80, category: "backend" },
-  { name: "C++", level: 85, category: "backend" },
-  { name: "C", level: 80, category: "backend" },
-  { name: "MongoDB", level: 82, category: "backend" },
-  { name: "PostgreSQL", level: 80, category: "backend" },
-  { name: "Firestore", level: 85, category: "backend" },
-
-  // AI & Machine Learning
-  { name: "LangChain", level: 88, category: "AI and Machine Learning" },
-  { name: "LangGraph", level: 88, category: "AI and Machine Learning" },
-  { name: "Agentic AI", level: 90, category: "AI and Machine Learning" },
-  { name: "Autogen", level: 85, category: "AI and Machine Learning" },
+  // AI & ML - Data Science Libraries
   { name: "Pandas", level: 85, category: "AI and Machine Learning" },
   { name: "NumPy", level: 82, category: "AI and Machine Learning" },
   { name: "scikit-learn", level: 80, category: "AI and Machine Learning" },
   { name: "OpenCV", level: 75, category: "AI and Machine Learning" },
-  { name: "Machine Learning", level: 85, category: "AI and Machine Learning" },
-  { name: "Deep Learning", level: 80, category: "AI and Machine Learning" },
 
-  // Tools & DevOps
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 75, category: "tools" },
-  { name: "VSCode", level: 88, category: "tools" },
-  { name: "Jira", level: 75, category: "tools" },
+  // Backend - Databases & Secondary Languages
+  { name: "MongoDB", level: 82, category: "backend" },
+  { name: "PostgreSQL", level: 80, category: "backend" },
+  { name: "Firestore", level: 85, category: "backend" },
+  { name: "C++", level: 85, category: "backend" },
+  { name: "C", level: 80, category: "backend" },
+
+  // Tools - Additional
   { name: "Power BI", level: 70, category: "tools" },
   { name: "AutoCAD", level: 70, category: "tools" },
 
   // Soft Skills
+  { name: "Problem Solving", level: 92, category: "soft" },
   { name: "Teamwork", level: 90, category: "soft" },
   { name: "Leadership", level: 88, category: "soft" },
   { name: "Management", level: 85, category: "soft" },
-  { name: "Problem Solving", level: 92, category: "soft" },
 ];
 
 export const testimonials: Testimonial[] = [
