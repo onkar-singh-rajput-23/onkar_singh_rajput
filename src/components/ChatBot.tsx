@@ -91,7 +91,7 @@ const ChatBot = () => {
       userInput.includes("technology") ||
       userInput.includes("tech stack")
     ) {
-      return "Onkar has diverse skills across 4 categories: iOS (SwiftUI, UIKit, Swift), Web (React.js, Next.js, Django, TypeScript), AI & ML (LangChain, LangGraph, Autogen, Pandas, NumPy, scikit-learn, OpenCV, Deep Learning), and Tools (Git, Docker, VSCode, Jira). Plus Python, C++, SQL, and soft skills!";
+      return "Onkar has diverse skills across 4 categories: iOS (SwiftUI, UIKit, Swift), Web (React.js, Next.js, Django, TypeScript), AI & ML (LangChain, LangGraph, Autogen, Pandas, NumPy, scikit-learn, OpenCV, Deep Learning), and Tools (Git, Docker, VSCode). Plus Python, C++, SQL, and soft skills!";
     }
     if (
       userInput.includes("agentic") ||
