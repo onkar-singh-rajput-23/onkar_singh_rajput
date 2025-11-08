@@ -90,7 +90,7 @@ const Resume = () => {
             </div>
             <div className="cert-item">
               <h4>International Conference in Brain Science</h4>
-              <p>Participation Certificate • Jan 23-26, 2023</p>
+              <p>Participation Certificate • January 23-26, 2023</p>
             </div>
           </div>
         </div>
