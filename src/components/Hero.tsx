@@ -49,10 +49,10 @@ const Hero = () => {
             <span className="cursor">|</span>
           </h2>
           <p className="hero-description">
-            BTech student at IIT Jodhpur specializing in iOS Development, Web
-            Development, and Agentic AI. Building iOS apps with SwiftUI, web
-            platforms with React/Next.js, and autonomous multi-agent systems
-            with LangChain & LangGraph.
+            BTech graduate from IIT Jodhpur (2021-2025) specializing in iOS
+            Development, Web Development, and Agentic AI. Building iOS apps with
+            SwiftUI, web platforms with React/Next.js, and autonomous multi-agent
+            systems with LangChain & LangGraph.
           </p>
           <div className="hero-cta">
             <button

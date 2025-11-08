@@ -253,7 +253,7 @@ export const education: Education[] = [
     id: 1,
     degree: "Bachelor of Technology in Bioscience and Bioengineering",
     institution: "Indian Institute of Technology Jodhpur",
-    period: "2021 - Present",
+    period: "2021 - 2025",
     description:
       "Coursework: AI, Machine Learning, Deep Learning, Data Structures & Algorithms, Probability, Statistics, and Stochastic Process, Signals and Systems, Bioimaging. Areas of Interest: Agentic AI and Data Science",
   },

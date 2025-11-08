@@ -30,7 +30,7 @@ const About = () => {
           <div className="about-text">
             <h3>Hi, I'm Onkar Singh Rajput - Full Stack & AI Developer</h3>
             <p>
-              I'm a BTech student at IIT Jodhpur (2021-Present) specializing in
+              I'm a BTech graduate from IIT Jodhpur (2021-2025) specializing in
               Bioscience and Bioengineering, with expertise in iOS Development,
               Web Development, and Agentic AI. I'm currently working at Ixigo
               (since June 2025) and completed an internship at KbCloudtech,

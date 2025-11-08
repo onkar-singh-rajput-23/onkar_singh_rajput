@@ -84,7 +84,7 @@ const ChatBot = () => {
       userInput.includes("who are you") ||
       userInput.includes("who is")
     ) {
-      return "This is Onkar Singh Rajput's portfolio! He's a BTech student at IIT Jodhpur with expertise in iOS Development (SwiftUI), Web Development (React/Next.js), and Agentic AI (LangChain/LangGraph).";
+      return "This is Onkar Singh Rajput's portfolio! He's a BTech graduate from IIT Jodhpur (2021-2025) with expertise in iOS Development (SwiftUI), Web Development (React/Next.js), and Agentic AI (LangChain/LangGraph).";
     }
     if (
       userInput.includes("skill") ||
@@ -159,7 +159,7 @@ const ChatBot = () => {
       userInput.includes("iit") ||
       userInput.includes("degree")
     ) {
-      return "Onkar is pursuing BTech in Bioscience and Bioengineering from IIT Jodhpur (2021-Present). His coursework includes AI, ML, Deep Learning, DSA, Probability, Statistics, Signals and Systems, and Bioimaging. His interests are Agentic AI and Data Science!";
+      return "Onkar completed his BTech in Bioscience and Bioengineering from IIT Jodhpur (2021-2025). His coursework includes AI, ML, Deep Learning, DSA, Probability, Statistics, Signals and Systems, and Bioimaging. His areas of interest are Agentic AI and Data Science!";
     }
     if (
       userInput.includes("contact") ||
@@ -177,7 +177,7 @@ const ChatBot = () => {
       return "Connect with Onkar on GitHub (github.com/onkarrajput) and LinkedIn (linkedin.com/in/onkar-singh-rajput)! Links are in the Contact section.";
     }
     if (userInput.includes("about") || userInput.includes("background")) {
-      return "Onkar Singh Rajput is a BTech student at IIT Jodhpur with expertise across iOS Development (SwiftUI/UIKit), Web Development (React/Next.js/Django), and Agentic AI (LangChain/LangGraph). He's built 6 diverse projects and completed internships at Ixigo & KbCloudtech!";
+      return "Onkar Singh Rajput is a BTech graduate from IIT Jodhpur (2021-2025) with expertise across iOS Development (SwiftUI/UIKit), Web Development (React/Next.js/Django), and Agentic AI (LangChain/LangGraph). He's built 6 diverse projects and completed internships at Ixigo & KbCloudtech!";
     }
     if (
       userInput.includes("leadership") ||
