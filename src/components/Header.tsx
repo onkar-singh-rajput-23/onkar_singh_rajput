@@ -27,18 +27,8 @@ const Header = () => {
     <header className={`header ${isScrolled ? "scrolled" : ""}`}>
       <nav className="nav-container">
         <div className="logo" onClick={() => scrollToSection("hero")}>
-          <span className="logo-text">Onkar Rajput</span>
+          <span className="logo-text">Onkar Singh Rajput</span>
         </div>
-
-        <button
-          className="mobile-menu-toggle"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          aria-label="Toggle menu"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
 
         <ul className={`nav-links ${isMobileMenuOpen ? "mobile-open" : ""}`}>
           <li>
@@ -68,13 +58,25 @@ const Header = () => {
           </li>
         </ul>
 
-        <button
-          className="theme-toggle"
-          onClick={toggleTheme}
-          aria-label="Toggle theme"
-        >
-          {theme === "light" ? "🌙" : "☀️"}
-        </button>
+        <div className="nav-actions">
+          <button
+            className="theme-toggle"
+            onClick={toggleTheme}
+            aria-label="Toggle theme"
+          >
+            {theme === "light" ? "🌙" : "☀️"}
+          </button>
+
+          <button
+            className="mobile-menu-toggle"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
       </nav>
     </header>
   );

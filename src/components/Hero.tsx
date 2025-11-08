@@ -51,8 +51,8 @@ const Hero = () => {
           <p className="hero-description">
             BTech graduate from IIT Jodhpur (2021-2025) specializing in iOS
             Development, Web Development, and Agentic AI. Building iOS apps with
-            SwiftUI, web platforms with React/Next.js, and autonomous multi-agent
-            systems with LangChain & LangGraph.
+            SwiftUI, web platforms with React/Next.js, and autonomous
+            multi-agent systems with LangChain & LangGraph.
           </p>
           <div className="hero-cta">
             <button

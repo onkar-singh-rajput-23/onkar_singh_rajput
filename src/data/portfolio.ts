@@ -12,7 +12,7 @@ export const projects: Project[] = [
     title: "Sidekick: Multi-Agent Personal Assistant",
     description:
       "Created an autonomous multi-agent system designed to execute complex, multi-step tasks. Employs a self-evaluation system with Worker and Evaluator agents. Agents can browse the web using Playwright, execute Python scripts, manage files, and perform web searches.",
-    image: "/assets/project1.jpg",
+    image: "/assets/Aimultiagent.png",
     technologies: ["LangGraph", "LangChain", "Playwright", "Python"],
     githubUrl: "https://github.com/onkarrajput",
     metrics: [
@@ -26,7 +26,7 @@ export const projects: Project[] = [
     title: "AI Trading Floor: Multi-Model Stock Trading Simulation",
     description:
       "Provides a real-time portfolio tracking system with a visually appealing Gradio-based dashboard. Uses Model Context Protocol (MCP) server architecture to manage account and market data. Enables detailed analytics for tracking profit and loss metrics effectively.",
-    image: "/assets/project2.jpg",
+    image: "/assets/aiAgentTrading.png",
     technologies: ["MCP", "LLM", "Agentic AI", "Gradio", "Python"],
     githubUrl: "https://github.com/onkarrajput",
     metrics: [
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     title: "Distributed Agent Network: Self-Replicating AI System",
     description:
       "Breaks new ground by creating a self-replicating AI system where agents autonomously generate other agents with unique personalities. Application scope includes multi-perspective brainstorming, emergent behavior research, and scalable agent networks with parallel processing techniques.",
-    image: "/assets/project3.jpg",
+    image: "/assets/multiagent.png",
     technologies: ["Autogen", "Python", "Distributed Systems"],
     githubUrl: "https://github.com/onkarrajput",
     metrics: [
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     title: "Weather App",
     description:
       "Developed a comprehensive weather app with all essential features including location updates and weather predictions. Implemented smooth navigation and an interactive UI for enhanced visibility and user-friendly experience.",
-    image: "/assets/project1.jpg",
+    image: "/assets/weather.png",
     technologies: ["SwiftUI", "CoreLocation", "WeatherAPI"],
     githubUrl: "https://github.com/onkarrajput",
     metrics: [
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     title: "E-Commerce Website",
     description:
       "Built a full-stack e-commerce platform with user authentication using JWT and OAuth, role-based access control for customers and admins. Implemented search, filters, and personalized recommendations with a responsive UI using Tailwind CSS and Material-UI.",
-    image: "/assets/project2.jpg",
+    image: "/assets/e-commerce.png",
     technologies: [
       "React.js",
       "Node.js",
@@ -90,7 +90,7 @@ export const projects: Project[] = [
     title: "Online Voting System",
     description:
       "Designed and developed a voting system for people living outside their hometown with OTP-based authentication, officer dashboard to track real-time voting progress, and voter dashboard where voters can see candidates in their constituency.",
-    image: "/assets/project3.jpg",
+    image: "/assets/votingsystem.png",
     technologies: [
       "React.js",
       "Django",
