@@ -14,7 +14,7 @@ export const projects: Project[] = [
       "Created an autonomous multi-agent system designed to execute complex, multi-step tasks. Employs a self-evaluation system with Worker and Evaluator agents. Agents can browse the web using Playwright, execute Python scripts, manage files, and perform web searches.",
     image: "/assets/Aimultiagent.png",
     technologies: ["LangGraph", "LangChain", "Playwright", "Python"],
-    githubUrl: "https://github.com/onkarrajput",
+    githubUrl: "https://github.com/onkar-singh-rajput-23",
     metrics: [
       { label: "Period", value: "Sep - Oct 2025" },
       { label: "Type", value: "Self Learning" },
@@ -28,7 +28,7 @@ export const projects: Project[] = [
       "Provides a real-time portfolio tracking system with a visually appealing Gradio-based dashboard. Uses Model Context Protocol (MCP) server architecture to manage account and market data. Enables detailed analytics for tracking profit and loss metrics effectively.",
     image: "/assets/aiAgentTrading.png",
     technologies: ["MCP", "LLM", "Agentic AI", "Gradio", "Python"],
-    githubUrl: "https://github.com/onkarrajput",
+    githubUrl: "https://github.com/onkar-singh-rajput-23",
     metrics: [
       { label: "Date", value: "October 2025" },
       { label: "Type", value: "Self Learning" },
@@ -42,7 +42,7 @@ export const projects: Project[] = [
       "Breaks new ground by creating a self-replicating AI system where agents autonomously generate other agents with unique personalities. Application scope includes multi-perspective brainstorming, emergent behavior research, and scalable agent networks with parallel processing techniques.",
     image: "/assets/multiagent.png",
     technologies: ["Autogen", "Python", "Distributed Systems"],
-    githubUrl: "https://github.com/onkarrajput",
+    githubUrl: "https://github.com/onkar-singh-rajput-23",
     metrics: [
       { label: "Period", value: "Sep - Oct 2025" },
       { label: "Type", value: "Self Learning" },
@@ -56,7 +56,7 @@ export const projects: Project[] = [
       "Developed a comprehensive weather app with all essential features including location updates and weather predictions. Implemented smooth navigation and an interactive UI for enhanced visibility and user-friendly experience.",
     image: "/assets/weather.png",
     technologies: ["SwiftUI", "CoreLocation", "WeatherAPI"],
-    githubUrl: "https://github.com/onkarrajput",
+    githubUrl: "https://github.com/onkar-singh-rajput-23",
     metrics: [
       { label: "Date", value: "May 2025" },
       { label: "Platform", value: "iOS" },
@@ -78,7 +78,7 @@ export const projects: Project[] = [
       "Tailwind CSS",
       "Material-UI",
     ],
-    githubUrl: "https://github.com/onkarrajput",
+    githubUrl: "https://github.com/onkar-singh-rajput-23",
     metrics: [
       { label: "Period", value: "May 25 - Jul 1, 2024" },
       { label: "Auth", value: "JWT + OAuth" },
@@ -99,7 +99,7 @@ export const projects: Project[] = [
       "Material-UI",
       "Tailwind CSS",
     ],
-    githubUrl: "https://github.com/onkarrajput",
+    githubUrl: "https://github.com/onkar-singh-rajput-23",
     metrics: [
       { label: "Period", value: "Jan 15 - Jan 31, 2025" },
       { label: "Auth", value: "OTP-based" },

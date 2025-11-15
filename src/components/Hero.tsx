@@ -70,7 +70,7 @@ const Hero = () => {
           </div>
           <div className="hero-social">
             <a
-              href="https://github.com/onkarrajput"
+              href="https://github.com/onkar-singh-rajput-23"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"

@@ -174,7 +174,7 @@ const ChatBot = () => {
       userInput.includes("linkedin") ||
       userInput.includes("social")
     ) {
-      return "Connect with Onkar on GitHub (github.com/onkarrajput) and LinkedIn (linkedin.com/in/onkar-singh-rajput)! Links are in the Contact section.";
+      return "Connect with Onkar on GitHub (github.com/onkar-singh-rajput-23) and LinkedIn (linkedin.com/in/onkar-singh-rajput)! Links are in the Contact section.";
     }
     if (userInput.includes("about") || userInput.includes("background")) {
       return "Onkar Singh Rajput is a BTech graduate from IIT Jodhpur (2021-2025) with expertise across iOS Development (SwiftUI/UIKit), Web Development (React/Next.js/Django), and Agentic AI (LangChain/LangGraph). He's built 6 diverse projects and completed internships at Ixigo & KbCloudtech!";
